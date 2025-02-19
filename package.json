@@ -13,7 +13,8 @@
   "homepage": "https://github.com/BChampin/rpg-tp#readme",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "build:check": "tsc -b && vite build",
+    "build": "tsc --noEmit && vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },

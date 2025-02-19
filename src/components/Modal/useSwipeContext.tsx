@@ -50,27 +50,27 @@ export function SwipeProvider({
 
   const swippeableCallbacks: SwipeableProps = useMemo(
     () => ({
-      onSwipedDown: (data) => {
+      onSwipedDown: (data: any) => {
         if (startPosition.y === 0 && elemPosition.y === 0 && onSwipedDown) {
           onSwipedDown(data);
         }
       },
-      onSwipedLeft: (data) => {
+      onSwipedLeft: (data: any) => {
         if (onSwipedLeft) {
           onSwipedLeft(data);
         }
       },
-      onSwipedRight: (data) => {
+      onSwipedRight: (data: any) => {
         if (onSwipedRight) {
           onSwipedRight(data);
         }
       },
-      onSwipedUp: (data) => {
+      onSwipedUp: (data: any) => {
         if (elemPosition.y === 0 && onSwipedUp) {
           onSwipedUp(data);
         }
       },
-      onSwipeStart: (data) => {
+      onSwipeStart: (data: any) => {
         setStartPosition(elemPosition);
         onSwipeStart && onSwipeStart(data);
       },

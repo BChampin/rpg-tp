@@ -21,7 +21,7 @@ export function OrgaView() {
         {rpgTp && rpgTp.org.length > 0 && rpgTp.org.map((orga: TpOrg, i: number) => (
           <div key={i} className="bg-theme-6 shadow-lg rounded-2xl p-6 w-64 flex flex-col items-center">
             <div className="text-xl font-semibold text-theme-2">{orga.name}</div>
-            <div className="text-md text-theme-3 mt-1">{orga.role}</div>
+            <div className="text-md text-theme-3 mt-1">{orga.roles}</div>
             {orga.exchange && (
               <a
                 href={orga.exchange}

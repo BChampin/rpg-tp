@@ -35,6 +35,7 @@ export type TpTime = {
   time: string
   replay?: string
   teamId?: string
+  editionId?: string
 }
 
 export type TmMap = {
@@ -49,7 +50,7 @@ export type TpEdition = {
   id: string
   date: string
   mapsIds: string[]
-  winnerTeamsIds?: string[]
+  winnerTeamId?: string[]
   announcementTweet?: string
   announcementTrailer?: string
   announcementPicture?: string

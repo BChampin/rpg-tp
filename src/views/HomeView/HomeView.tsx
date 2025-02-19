@@ -49,7 +49,7 @@ function EditionRow({ edition }: { edition: TpEdition }) {
     { show: editionTimes.length > 0, label: 'Participants' },
     { show: !!edition.announcementTrailer, label: 'Trailer', icon: VideoCameraIcon },
     { show: !!edition.announcementPicture, label: 'Annonce' },
-    { show: edition.recapVideos.length > 0, label: 'Récap', icon: VideoCameraIcon },
+    { show: edition.recapVideos && edition.recapVideos.length > 0, label: 'Récap', icon: VideoCameraIcon },
   ]
 
   return (
@@ -103,7 +103,7 @@ function EditionRow({ edition }: { edition: TpEdition }) {
                 </ul>
                 <div className="text-lg font-bold text-theme-2">
                   Gagnants :
-                  <TeamBadge team={rpgTp.teams.find((t: TpTeam) => t.id === edition.winnerTeamsId)} />
+                  <TeamBadge team={rpgTp.teams.find((t: TpTeam) => t.id === edition.winnerTeamId)} />
                 </div>
               </TabPanel>
             }

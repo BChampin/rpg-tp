@@ -1,16 +1,16 @@
 {
   "org": [
-    { "name": "Wingo", "role": "Host" },
-    { "name": "Beu", "role": "Admin / Dev" },
-    { "name": "Neppo", "role": "Admin / Monteur" },
-    { "name": "Raikuz", "role": "Admin / Testeur" },
-    { "name": "PyDelta", "role": "Admin / Testeur" },
-    { "name": "ziyx_", "role": "Mappeur", "exchange": "https://trackmania.exchange/mapsearch?query=author%3A+ziyx" },
-    { "name": "Qiraj", "role": "Mappeur", "exchange": "https://trackmania.exchange/mapsearch?query=author%3a+Qiraj" },
-    { "name": "Heasto", "role": "Mappeur", "exchange": "https://trackmania.exchange/mapsearch?query=author%3A+Heasto" },
-    { "name": "Onyx_be01", "role": "Mappeur", "exchange": "https://trackmania.exchange/mapsearch?query=author%3A+Onyx_be01" },
-    { "name": "SirTalyon", "role": "Mappeur", "exchange": "https://trackmania.exchange/mapsearch?query=author%3A+SirTalyon" },
-    { "name": "NeoriionTM", "role": "Mappeur", "exchange": "https://trackmania.exchange/mapsearch?query=author%3A+NeoriionTM" }
+    { "name": "Wingo", "roles": "Host" },
+    { "name": "Beu", "roles": "Admin / Dev" },
+    { "name": "Neppo", "roles": "Admin / Monteur" },
+    { "name": "Raikuz", "roles": "Admin / Testeur" },
+    { "name": "PyDelta", "roles": "Admin / Testeur" },
+    { "name": "ziyx_", "roles": "Mappeur", "exchange": "https://trackmania.exchange/mapsearch?query=author%3A+ziyx" },
+    { "name": "Qiraj", "roles": "Mappeur", "exchange": "https://trackmania.exchange/mapsearch?query=author%3a+Qiraj" },
+    { "name": "Heasto", "roles": "Mappeur", "exchange": "https://trackmania.exchange/mapsearch?query=author%3A+Heasto" },
+    { "name": "Onyx_be01", "roles": "Mappeur", "exchange": "https://trackmania.exchange/mapsearch?query=author%3A+Onyx_be01" },
+    { "name": "SirTalyon", "roles": "Mappeur", "exchange": "https://trackmania.exchange/mapsearch?query=author%3A+SirTalyon" },
+    { "name": "NeoriionTM", "roles": "Mappeur", "exchange": "https://trackmania.exchange/mapsearch?query=author%3A+NeoriionTM" }
   ],
   "teams": [
     { "id": "FCF", "name": "FC Fleurs", "color": "pink", "emoji": "🌺" },
@@ -271,7 +271,7 @@
       "date": "2024/02/07",
       "mapsIds": ["map_0"],
       "recapVideos": ["https://www.youtube.com/watch?v=SiOqw3fzmPY"],
-      "winnerTeamsId": "FCF",
+      "winnerTeamId": "FCF",
       "announcementTweet": "https://x.com/Wingo_Bear/status/1754804610370334945?t=FErD72cUa-Yt342x6jatVw&s=19",
       "announcementTrailer": false,
       "announcementPicture": true
@@ -281,7 +281,7 @@
       "date": "2024/06/19",
       "mapsIds": ["map_1"],
       "recapVideos": ["https://www.youtube.com/watch?v=52L6yayRVSs"],
-      "winnerTeamsId": "FCF",
+      "winnerTeamId": "FCF",
       "announcementTweet": "https://x.com/Wingo_Bear/status/1803485608263778481?t=-K0JvJKBuHnHFBNr2QNODg&s=19",
       "announcementTrailer": true,
       "announcementPicture": true
@@ -291,7 +291,7 @@
       "date": "2024/07/31",
       "mapsIds": ["map_2"],
       "recapVideos": [],
-      "winnerTeamsId": "FCF",
+      "winnerTeamId": "FCF",
       "announcementTweet": "https://x.com/Wingo_Bear/status/1817524085435351164?t=gcdubGnYGgXCqSxhcgv0eA&s=19",
       "announcementTrailer": true,
       "announcementPicture": true
@@ -301,7 +301,7 @@
       "date": "2024/12/18",
       "mapsIds": ["map_3"],
       "recapVideos": ["https://www.youtube.com/watch?v=Bd1aoUVZ25c"],
-      "winnerTeamsId": "MDR",
+      "winnerTeamId": "MDR",
       "announcementTweet": "https://x.com/Wingo_Bear/status/1868639936922210743",
       "announcementTrailer": true,
       "announcementPicture": true
@@ -314,7 +314,7 @@
         "https://www.youtube.com/watch?v=4VmFLBhD8sk",
         "https://www.youtube.com/watch?v=-yH21KAc2VQ"
       ],
-      "winnerTeamsId": "MDR",
+      "winnerTeamId": "MDR",
       "announcementTweet": "",
       "announcementTrailer": false,
       "announcementPicture": true
@@ -324,7 +324,7 @@
       "date": "2025/02/19",
       "mapsIds": ["map_6", "map_5"],
       "recapVideos": [],
-      "winnerTeamsId": "PP",
+      "winnerTeamId": "PP",
       "announcementTweet": "https://x.com/Wingo_Bear/status/1891097339911192967",
       "announcementTrailer": false,
       "announcementPicture": true
