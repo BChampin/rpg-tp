@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700&display=swap');
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --theme-1: #0d1046;
+    --theme-2: #0e0574;
+    --theme-3: #8d8fb2;
+    --theme-4: #544fd9;
+    --theme-5: #f4f4f4;
+    --theme-6: #eeedfb;
+    --theme-7: #ffffff;
+    --theme-8: #dbdcec;
+  }
+
+  [data-theme='dark'] {
+    --theme-1: #232323;
+    --theme-2: #fbfbfb;
+    --theme-3: #898989;
+    --theme-4: #bfaa82;
+    --theme-5: #232323;
+    --theme-6: #232323;
+    --theme-7: #161616;
+    --theme-8: #4f4f4f;
+  }
+
+  :root {
+    --theme-white-neutral: #f8f8f8;
+    --theme-green: #5ac8a0;
+    --theme-red: #f2513b;
+    --theme-gold: #efae05;
+    --theme-blue: #5c8fee;
+    --theme-blue-difficulty: #3e38e9;
+  }
+
+  [data-colorblind='true'] {
+    --theme-green: var(--theme-blue);
+  }
+
+  html {
+    font-family:
+      Plus Jakarta Sans,
+      system-ui,
+      sans-serif;
+  }
+}
+
+@layer components {
+  .transitionChildren,
+  .transitionChildren * {
+    @apply transition-all duration-500 ease-in-out;
+  }
+}
+
+@theme {
+  --color-theme-1: var(--theme-1);
+  --color-theme-2: var(--theme-2);
+  --color-theme-3: var(--theme-3);
+  --color-theme-4: var(--theme-4);
+  --color-theme-5: var(--theme-5);
+  --color-theme-6: var(--theme-6);
+  --color-theme-7: var(--theme-7);
+
+  --color-green: var(--theme-green);
+  --color-red: var(--theme-red);
+  --color-gold: var(--theme-gold);
+  --color-blue: var(--theme-blue);
+  --color-white-neutral: var(--theme-white-neutral);
+}

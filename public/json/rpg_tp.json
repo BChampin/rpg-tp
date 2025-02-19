@@ -1,0 +1,333 @@
+{
+  "org": [
+    { "name": "Wingo", "role": "Host" },
+    { "name": "Beu", "role": "Admin / Dev" },
+    { "name": "Neppo", "role": "Admin / Monteur" },
+    { "name": "Raikuz", "role": "Admin / Testeur" },
+    { "name": "PyDelta", "role": "Admin / Testeur" },
+    { "name": "ziyx_", "role": "Mappeur", "exchange": "https://trackmania.exchange/mapsearch?query=author%3A+ziyx" },
+    { "name": "Qiraj", "role": "Mappeur", "exchange": "https://trackmania.exchange/mapsearch?query=author%3a+Qiraj" },
+    { "name": "Heasto", "role": "Mappeur", "exchange": "https://trackmania.exchange/mapsearch?query=author%3A+Heasto" },
+    { "name": "Onyx_be01", "role": "Mappeur", "exchange": "https://trackmania.exchange/mapsearch?query=author%3A+Onyx_be01" },
+    { "name": "SirTalyon", "role": "Mappeur", "exchange": "https://trackmania.exchange/mapsearch?query=author%3A+SirTalyon" },
+    { "name": "NeoriionTM", "role": "Mappeur", "exchange": "https://trackmania.exchange/mapsearch?query=author%3A+NeoriionTM" }
+  ],
+  "teams": [
+    { "id": "FCF", "name": "FC Fleurs", "color": "pink", "emoji": "🌺" },
+    { "id": "GBG", "name": "Giga Beaux Gosses", "color": "yellow", "emoji": "😎" },
+    { "id": "SOINC", "name": "Soinc", "color": "blue", "emoji": "🦔" },
+    { "id": "MDR", "name": "Mandatory", "color": "red", "emoji": "🔨" },
+    { "id": "WQZ", "name": "Wauquiez", "color": "emerald", "emoji": "👴" },
+    { "id": "PP", "name": "Les Pipes", "color": "fuchsia", "emoji": "🚬" },
+    { "id": "DOMO", "name": "Domo", "color": "rose", "emoji": "🇯🇵" }
+  ],
+  "players": [
+    {
+      "id": "horty",
+      "name": "HortyUnderscore",
+      "quote": "Clairement on est pas ici pour les skills.",
+      "teamId": "SOINC",
+      "twitch": "https://www.twitch.tv/hortyunderscore",
+      "twitter": "https://twitter.com/HortyUnderscore",
+      "discord": "https://discord.gg/horty",
+      "youtube": "http://www.youtube.com/c/Hortense_Horty",
+      "instagram": "https://instagram.com/hortyunderscore",
+      "tiktok": "https://tiktok.com/@hortyunderscore"
+    },
+    {
+      "id": "naka",
+      "name": "Naka",
+      "quote": "Solu",
+      "teamId": "SOINC",
+      "twitter": "https://twitter.com/Nakatine_",
+      "discord": "https://discord.gg/5U3dxMKeEE",
+      "youtube": "https://www.youtube.com/@Nakavideos",
+      "tiktok": "https://www.tiktok.com/@nakastream"
+    },
+    {
+      "id": "jday",
+      "name": "MisterJday",
+      "quote": "Salut c'est MisterJDay et je joue à Mario.",
+      "teamId": "WQZ",
+      "twitch": "https://www.twitch.tv/misterjday",
+      "twitter": "http://twitter.com/MisterJDay",
+      "youtube": "https://www.youtube.com/JDay",
+      "bluesky": "https://bsky.app/profile/misterjday.bsky.social"
+    },
+    {
+      "id": "angle",
+      "name": "AngleDroit",
+      "quote": "Jeu vidéo, vulgarisation juridique et parfois, les deux en même temps.",
+      "teamId": "WQZ",
+      "twitch": "https://www.twitch.tv/angledroit",
+      "twitter": "https://twitter.com/AngleDroit_",
+      "discord": "https://discord.gg/AEcqXfn",
+      "youtube": "https://www.youtube.com/channel/UC_KidpuCqhbvqZedgq2DPpA/",
+      "instagram": "https://www.instagram.com/angledroit_"
+    },
+    {
+      "id": "ponce",
+      "name": "Ponce",
+      "quote": "Nous sommes de très jolies fleurs dans un même bouquet.",
+      "teamId": "FCF",
+      "twitch": "https://twitch.tv/ponce",
+      "twitter": "http://twitter.com/Poncefleur",
+      "discord": "https://discord.com/invite/ponce",
+      "youtube": "https://www.youtube.com/channel/UCKKY2Jcg_P9fhfHD3ICyMxg",
+      "bluesky": "https://bsky.app/profile/poncefleur.bsky.social",
+      "instagram": "http://instagram.com/poncefleur_",
+      "tiktok": "https://www.tiktok.com/@poncefleur_"
+    },
+    {
+      "id": "bytell",
+      "name": "Bytell",
+      "quote": "On rigole ici, c'est fou ce qu'on peut rire",
+      "teamId": "FCF",
+      "twitch": "https://www.twitch.tv/bytell2",
+      "twitter": "https://twitter.com/Bytell2",
+      "discord": "https://discord.gg/7xXsyTb",
+      "youtube": "https://www.youtube.com/user/bytell2",
+      "instagram": "https://www.instagram.com/bytell2/"
+    },
+    {
+      "id": "guill",
+      "name": "TheGuill84",
+      "quote": "J'ai 25 ans et je joue autant à Minecraft que quand j'en avais 12, comme quoi...",
+      "teamId": "FCF",
+      "twitch": "https://www.twitch.tv/theguill84",
+      "twitter": "https://twitter.com/theguill84",
+      "discord": "https://discord.gg/guill",
+      "youtube": "https://www.youtube.com/user/theguill84",
+      "instagram": "https://www.instagram.com/guillcstl/",
+      "tiktok": "https://www.tiktok.com/@theguill84"
+    },
+    {
+      "id": "zerator",
+      "name": "ZeratoR",
+      "quote": "Casu à mon grand dam mais j'organise des trucs",
+      "teamId": "MDR",
+      "twitch": "https://www.twitch.tv/zerator",
+      "twitter": "https://twitter.com/ZeratoR",
+      "discord": "https://discord.gg/zerator",
+      "youtube": "https://youtube.com/ZeratoR",
+      "instagram": "https://www.instagram.com/zerator",
+      "tiktok": "https://www.tiktok.com/@zerator"
+    },
+    {
+      "id": "hyp",
+      "name": "HyP",
+      "quote": "Valorant Player for MandatoryGG",
+      "teamId": "MDR",
+      "twitch": "https://www.twitch.tv/hyp_tv",
+      "twitter": "https://x.com/HyPOfficial"
+    },
+    {
+      "id": "khalen",
+      "name": "Khalen",
+      "quote": "CHAMPION ZLAN 2021, y'a plus rien d'autre qui compte",
+      "teamId": "GBG",
+      "twitch": "https://www.twitch.tv/kha_len",
+      "twitter": "https://twitter.com/ElKhaLeN",
+      "discord": "https://discord.gg/qWEngg4"
+    },
+    {
+      "id": "aypierre",
+      "name": "Aypierre",
+      "quote": "Minecraft Champion PVP de France et d'Europe",
+      "teamId": "GBG",
+      "twitch": "https://www.twitch.tv/aypierre",
+      "twitter": "https://twitter.com/AypierreMc",
+      "youtube": "https://www.youtube.com/channel/UCA5sfitizqs1oEbB5KY4uKQ",
+      "instagram": "https://www.instagram.com/aypierre/"
+    },
+    {
+      "id": "baghera",
+      "name": "BagheraJones",
+      "quote": "On fait rien et c'est rigolo",
+      "teamId": "PP",
+      "twitch": "https://www.twitch.tv/bagherajones",
+      "twitter": "https://twitter.com/Baghera__Jones",
+      "youtube": "https://www.youtube.com/channel/UCJQupr7XZ2y2fnx5i1-YavQ",
+      "instagram": "https://www.instagram.com/bagherajones/",
+      "discord": "https://discord.gg/yqBmEBP"
+    },
+    {
+      "id": "antoine",
+      "name": "Antoine Daniel",
+      "quote": "Et oui je suis là",
+      "teamId": "PP",
+      "twitch": "https://www.twitch.tv/antoinedaniel",
+      "discord": "https://discord.gg/aVHrA7y",
+      "instagram": "https://www.instagram.com/mr.antoinedaniel/",
+      "tiktok": "https://www.tiktok.com/@mr.antoinedaniel?lang=fr"
+    }
+  ],
+  "times": [
+    { "playerId": "horty", "mapId": "map_0", "editionId": "1", "time": "01:08:08.061" },
+    { "playerId": "horty", "mapId": "map_1", "editionId": "2", "time": "03:20:49.664" },
+    { "playerId": "horty", "mapId": "map_2", "editionId": "3", "time": "02:57:12.616" },
+    { "playerId": "horty", "mapId": "map_3", "editionId": "4", "time": "01:43:17.409", "replay": "https://www.twitch.tv/videos/2342401421" },
+    { "playerId": "naka", "mapId": "map_0", "editionId": "1", "time": "01:07:56.867" },
+    { "playerId": "naka", "mapId": "map_1", "editionId": "2", "time": "03:20:33.624" },
+    { "playerId": "naka", "mapId": "map_2", "editionId": "3", "time": "02:57:46.783" },
+    { "playerId": "naka", "mapId": "map_3", "editionId": "4", "time": "01:43:33.690" },
+    { "playerId": "zerator", "mapId": "map_3", "editionId": "4", "time": "58:54.761" },
+    { "playerId": "zerator", "mapId": "map_4", "editionId": "5", "time": "01:42:21.810" },
+    { "playerId": "zerator", "mapId": "map_5", "editionId": "5", "time": "01:02:50.238" },
+    { "playerId": "hyp", "mapId": "map_3", "editionId": "4", "time": "58:43.119" },
+    { "playerId": "hyp", "mapId": "map_4", "editionId": "5", "time": "01:42:46.353" },
+    { "playerId": "hyp", "mapId": "map_5", "editionId": "5", "time": "01:03:10.958" },
+    { "playerId": "ponce", "mapId": "map_0", "editionId": "1", "time": "58:25.548", "replay": "https://www.youtube.com/watch?v=HG83jkkOfMc" },
+    { "playerId": "ponce", "mapId": "map_1", "editionId": "2", "time": "02:37:10.103" },
+    { "playerId": "ponce", "mapId": "map_2", "editionId": "3", "time": "02:31:21.467", "replay": "https://www.youtube.com/watch?v=OLtWKcLYDUc" },
+    { "playerId": "ponce", "mapId": "map_3", "editionId": "4", "time": "01:10:31.130", "replay": "https://www.youtube.com/watch?v=SOsYbZEHQSk" },
+    { "playerId": "ponce", "mapId": "map_4", "editionId": "5", "time": "02:24:38.928", "replay": "https://www.youtube.com/watch?v=gAjUXozQkTk" },
+    { "playerId": "ponce", "mapId": "map_5", "editionId": "5", "time": "01:03:00.890", "replay": "https://www.youtube.com/watch?v=gAjUXozQkTk" },
+    { "playerId": "bytell", "mapId": "map_0", "editionId": "1", "time": "01:03:47.796" },
+    { "playerId": "bytell", "mapId": "map_1", "editionId": "2", "time": "03:13:51.812" },
+    { "playerId": "bytell", "mapId": "map_2", "editionId": "3", "time": "02:31:34.346" },
+    { "playerId": "guill", "mapId": "map_3", "editionId": "4", "time": "01:10:33.688", "replay": "https://www.youtube.com/watch?v=jubyQF0dp68" },
+    { "playerId": "guill", "mapId": "map_4", "editionId": "5", "time": "02:26:07.795", "replay": "https://www.youtube.com/watch?v=ASbIG2wTNp8" },
+    { "playerId": "guill", "mapId": "map_5", "editionId": "5", "time": "01:03:56.389", "replay": "https://www.youtube.com/watch?v=ASbIG2wTNp8" },
+    { "playerId": "khalen", "mapId": "map_4", "editionId": "5", "time": "01:47:51.355" },
+    { "playerId": "khalen", "mapId": "map_5", "editionId": "5", "time": "01:03:41.489" },
+    { "playerId": "aypierre", "mapId": "map_4", "editionId": "5", "time": "01:47:59.588" },
+    { "playerId": "aypierre", "mapId": "map_5", "editionId": "5", "time": "01:05:09.351" },
+    { "playerId": "jday", "mapId": "map_0", "editionId": "1", "time": "01:18:18.838", "replay": "https://www.youtube.com/watch?v=brv1mTMWxuI" },
+    { "playerId": "jday", "mapId": "map_1", "editionId": "2", "time": "03:19:15.983", "replay": "https://www.youtube.com/watch?v=qhaY47lewKU" },
+    { "playerId": "jday", "mapId": "map_2", "editionId": "3", "time": "02:41:39.084" },
+    { "playerId": "jday", "mapId": "map_3", "editionId": "4", "time": "01:34:15.639", "replay": "https://www.youtube.com/watch?v=GwU_2IT33DU" },
+    { "playerId": "angle", "mapId": "map_0", "editionId": "1", "time": "01:18:17.421", "replay": "https://www.twitch.tv/videos/2060824670?collection=FE2FBqvQERdNqw" },
+    { "playerId": "angle", "mapId": "map_1", "editionId": "2", "time": "03:20:23.988" },
+    { "playerId": "angle", "mapId": "map_2", "editionId": "3", "time": "02:42:13.305", "replay": "https://www.twitch.tv/videos/2213420689?collection=FE2FBqvQERdNqw" },
+    { "playerId": "angle", "mapId": "map_3", "editionId": "4", "time": "01:40:20.934", "replay": "https://www.twitch.tv/videos/2353667461?collection=FE2FBqvQERdNqw" },
+    { "playerId": "jday", "mapId": "map_6", "editionId": "6", "time": "55:21.784" },
+    { "playerId": "angle", "mapId": "map_6", "editionId": "6", "time": "55:30.185" },
+    { "playerId": "antoine", "mapId": "map_6", "editionId": "6", "time": "46:02.764" },
+    { "playerId": "baghera", "mapId": "map_6", "editionId": "6", "time": "45:56.729" },
+    { "playerId": "naka", "mapId": "map_6", "editionId": "6", "teamId": "DOMO", "time": "52:50.439" },
+    { "playerId": "bytell", "mapId": "map_6", "editionId": "6", "teamId": "DOMO", "time": "53:56.938" },
+    { "playerId": "jday", "mapId": "map_5", "editionId": "6", "time": "" },
+    { "playerId": "angle", "mapId": "map_5", "editionId": "6", "time": "" },
+    { "playerId": "antoine", "mapId": "map_5", "editionId": "6", "time": "" },
+    { "playerId": "baghera", "mapId": "map_5", "editionId": "6", "time": "" },
+    { "playerId": "naka", "mapId": "map_5", "editionId": "6", "teamId": "DOMO", "time": "" },
+    { "playerId": "bytell", "mapId": "map_5", "editionId": "6", "teamId": "DOMO", "time": "" }
+  ],
+  "maps": [
+    {
+      "id": "map_0",
+      "name": "Treasure Islands",
+      "author": "ziyx_",
+      "exchangeId": "153644",
+      "authorTime": "03:52.878"
+    },
+    {
+      "id": "map_1",
+      "name": "Oblivion - Novice",
+      "author": "Qiraj",
+      "exchangeId": "177289",
+      "authorTime": "08:46.195"
+    },
+    {
+      "id": "map_2",
+      "name": "Kepler-B23 - novice",
+      "author": "Heasto",
+      "exchangeId": "184838",
+      "authorTime": "05:09.136"
+    },
+    {
+      "id": "map_3",
+      "name": "Onyxtemple",
+      "author": "Onyx_be01",
+      "exchangeId": "214814",
+      "authorTime": "04:16.396"
+    },
+    {
+      "id": "map_4",
+      "name": "Pylos",
+      "author": "SirTalyon",
+      "exchangeId": "224823",
+      "authorTime": "05:51.025"
+    },
+    {
+      "id": "map_5",
+      "name": "Horizon's Edge - Sector A",
+      "author": "Qiraj",
+      "exchangeId": "204909",
+      "authorTime": "04:36.305"
+    },
+    {
+      "id": "map_6",
+      "name": "Cirrus - Easy",
+      "author": "NeoriionTM",
+      "exchangeId": "227562",
+      "authorTime": "04:31.526"
+    }
+  ],
+  "editions": [
+    {
+      "id": "1",
+      "date": "2024/02/07",
+      "mapsIds": ["map_0"],
+      "recapVideos": ["https://www.youtube.com/watch?v=SiOqw3fzmPY"],
+      "winnerTeamsId": "FCF",
+      "announcementTweet": "https://x.com/Wingo_Bear/status/1754804610370334945?t=FErD72cUa-Yt342x6jatVw&s=19",
+      "announcementTrailer": false,
+      "announcementPicture": true
+    },
+    {
+      "id": "2",
+      "date": "2024/06/19",
+      "mapsIds": ["map_1"],
+      "recapVideos": ["https://www.youtube.com/watch?v=52L6yayRVSs"],
+      "winnerTeamsId": "FCF",
+      "announcementTweet": "https://x.com/Wingo_Bear/status/1803485608263778481?t=-K0JvJKBuHnHFBNr2QNODg&s=19",
+      "announcementTrailer": true,
+      "announcementPicture": true
+    },
+    {
+      "id": "3",
+      "date": "2024/07/31",
+      "mapsIds": ["map_2"],
+      "recapVideos": [],
+      "winnerTeamsId": "FCF",
+      "announcementTweet": "https://x.com/Wingo_Bear/status/1817524085435351164?t=gcdubGnYGgXCqSxhcgv0eA&s=19",
+      "announcementTrailer": true,
+      "announcementPicture": true
+    },
+    {
+      "id": "4",
+      "date": "2024/12/18",
+      "mapsIds": ["map_3"],
+      "recapVideos": ["https://www.youtube.com/watch?v=Bd1aoUVZ25c"],
+      "winnerTeamsId": "MDR",
+      "announcementTweet": "https://x.com/Wingo_Bear/status/1868639936922210743",
+      "announcementTrailer": true,
+      "announcementPicture": true
+    },
+    {
+      "id": "5",
+      "date": "2025/02/04",
+      "mapsIds": ["map_4", "map_5"],
+      "recapVideos": [
+        "https://www.youtube.com/watch?v=4VmFLBhD8sk",
+        "https://www.youtube.com/watch?v=-yH21KAc2VQ"
+      ],
+      "winnerTeamsId": "MDR",
+      "announcementTweet": "",
+      "announcementTrailer": false,
+      "announcementPicture": true
+    },
+    {
+      "id": "6",
+      "date": "2025/02/19",
+      "mapsIds": ["map_6", "map_5"],
+      "recapVideos": [],
+      "winnerTeamsId": "PP",
+      "announcementTweet": "https://x.com/Wingo_Bear/status/1891097339911192967",
+      "announcementTrailer": false,
+      "announcementPicture": true
+    }
+  ]
+}
