@@ -207,12 +207,11 @@
     { "playerId": "baghera", "mapId": "map_6", "editionId": "6", "time": "45:56.729" },
     { "playerId": "naka", "mapId": "map_6", "editionId": "6", "teamId": "DOMO", "time": "52:50.439" },
     { "playerId": "bytell", "mapId": "map_6", "editionId": "6", "teamId": "DOMO", "time": "53:56.938" },
-    { "playerId": "jday", "mapId": "map_5", "editionId": "6", "time": "" },
-    { "playerId": "angle", "mapId": "map_5", "editionId": "6", "time": "" },
-    { "playerId": "antoine", "mapId": "map_5", "editionId": "6", "time": "" },
-    { "playerId": "baghera", "mapId": "map_5", "editionId": "6", "time": "" },
-    { "playerId": "naka", "mapId": "map_5", "editionId": "6", "teamId": "DOMO", "time": "" },
-    { "playerId": "bytell", "mapId": "map_5", "editionId": "6", "teamId": "DOMO", "time": "" }
+    { "playerId": "jday", "mapId": "map_5", "editionId": "6", "time": "2:15:14.545" },
+    { "playerId": "antoine", "mapId": "map_5", "editionId": "6", "time": "2:39:35.297" },
+    { "playerId": "baghera", "mapId": "map_5", "editionId": "6", "time": "2:36:45.584" },
+    { "playerId": "naka", "mapId": "map_5", "editionId": "6", "teamId": "DOMO", "time": "2:43:39.194" },
+    { "playerId": "bytell", "mapId": "map_5", "editionId": "6", "teamId": "DOMO", "time": "2:48:32.968" }
   ],
   "maps": [
     {
