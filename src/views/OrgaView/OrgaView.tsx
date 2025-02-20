@@ -1,6 +1,8 @@
 import { useRpgTp } from '@/hooks/useRpgTp'
 import { Divider, Title } from '@/components/UiComponents'
 import { TpOrg } from '@/types'
+import { faGithub } from '@fortawesome/free-brands-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 export function OrgaView() {
   const rpgTp = useRpgTp()
@@ -35,6 +37,26 @@ export function OrgaView() {
           </div>
         ))}
       </div>
+
+      <Divider />
+
+      <footer className="text-theme-2 p-2 flex flex-col sm:flex-row justify-center text-center items-center sm:items-baseline gap-4">
+        <div>Made with ❤️ and ☕ by Sakastien</div>
+        <div className="text-lg">·</div>
+        <div>
+          Project base and Sidebar by&nbsp;
+          <a target="_blank" className="text-theme-2" href="https://github.com/xAt0mZ">
+            xAt0mZ
+          </a>
+        </div>
+        <div className="text-lg">·</div>
+        <div>
+          <a target="_blank" className="text-theme-2" href="https://github.com/BChampin/rpg-tp">
+            <FontAwesomeIcon icon={faGithub} className="h-4 w-4" />
+          </a>
+        </div>
+      </footer>
+
     </div>
   )
 }
