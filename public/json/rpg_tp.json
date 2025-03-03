@@ -322,7 +322,10 @@
       "id": "6",
       "date": "2025/02/19",
       "mapsIds": ["map_6", "map_5"],
-      "recapVideos": [],
+      "recapVideos": [
+        "https://www.youtube.com/watch?v=Q3kU9avToYg",
+        "https://www.youtube.com/watch?v=W3BmSQUSyvM"
+      ],
       "winnerTeamId": "PP",
       "announcementTweet": "https://x.com/Wingo_Bear/status/1891097339911192967",
       "announcementTrailer": false,
