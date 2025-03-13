@@ -3,8 +3,8 @@
     { "name": "Wingo", "roles": "Host" },
     { "name": "Beu", "roles": "Admin / Dev" },
     { "name": "Neppo", "roles": "Admin / Monteur" },
-    { "name": "Raikuz", "roles": "Admin / Testeur" },
     { "name": "PyDelta", "roles": "Admin / Testeur" },
+    { "name": "Raikuz", "roles": "Admin / Testeur / Mappeur", "exchange": "https://trackmania.exchange/mapsearch?query=author%3a+Raikuz" },
     { "name": "ziyx_", "roles": "Mappeur", "exchange": "https://trackmania.exchange/mapsearch?query=author%3A+ziyx" },
     { "name": "Qiraj", "roles": "Mappeur", "exchange": "https://trackmania.exchange/mapsearch?query=author%3a+Qiraj" },
     { "name": "Heasto", "roles": "Mappeur", "exchange": "https://trackmania.exchange/mapsearch?query=author%3A+Heasto" },
@@ -19,7 +19,10 @@
     { "id": "MDR", "name": "Mandatory", "color": "red", "emoji": "🔨" },
     { "id": "WQZ", "name": "Wauquiez", "color": "emerald", "emoji": "👴" },
     { "id": "PP", "name": "Les Pipes", "color": "fuchsia", "emoji": "🚬" },
-    { "id": "DOMO", "name": "Domo", "color": "rose", "emoji": "🇯🇵" }
+    { "id": "DOMO", "name": "Domo", "color": "rose", "emoji": "🇯🇵" },
+    { "id": "HEL", "name": "Domo", "color": "rose", "emoji": "🦴" },
+    { "id": "SPF", "name": "SPF 50", "color": "rose", "emoji": "☀️" },
+    { "id": "ACT", "name": "Actually", "color": "rose", "emoji": "🤓" }
   ],
   "players": [
     {
@@ -160,6 +163,39 @@
       "discord": "https://discord.gg/aVHrA7y",
       "instagram": "https://www.instagram.com/mr.antoinedaniel/",
       "tiktok": "https://www.tiktok.com/@mr.antoinedaniel?lang=fr"
+    },
+    {
+      "id": "croco",
+      "name": "CrocodyleTV",
+      "quote": "CrocodyleTV streams Pokémon Black/White, League of Legends and Minecraft.",
+      "teamId": "HEL",
+      "twitch": "https://www.twitch.tv/crocodyletv",
+      "twitter": "https://twitter.com/Crocodyle_TV",
+      "discord": "https://discord.gg/ticrocoentreprise",
+      "youtube": "https://www.youtube.com/channel/UCI4bdgU-hmz5AgGOKVq_yuQ",
+      "instagram": "https://www.instagram.com/ticroco_lol/",
+      "tiktok": "https://www.tiktok.com/@ticrocotv"
+    },
+    {
+      "id": "kenny",
+      "name": "KennyStream",
+      "quote": "Petit streamer indépendant qui joue principalement à des jeux compétitifs et aime s'illustrer dans différentes compétitions, mais sinon, je joue à pleins de trucs variés et j'adore vous faire découvrir de nouvelles choses ! ⚡",
+      "teamId": "HEL",
+      "twitch": "https://www.twitch.tv/kennystream",
+      "twitter": "http://www.twitter.com/kennystream",
+      "youtube": "https://www.youtube.com/kenny",
+      "instagram": "https://www.instagram.com/kennysurinsta/"
+    },
+    {
+      "id": "etoiles",
+      "name": "Etoiles",
+      "quote": "Nuit de la culture, minecraft, smash et multigaming entre amis !",
+      "teamId": "ACT",
+      "twitch": "https://www.twitch.tv/etoiles",
+      "twitter": "http://twitter.com/AREtoiles",
+      "discord": "https://www.discord.gg/etoiles",
+      "youtube": "https://www.youtube.com/@AREtoilesMC",
+      "instagram": "https://www.instagram.com/etoilaisse/?hl=fr"
     }
   ],
   "times": [
@@ -211,7 +247,20 @@
     { "playerId": "antoine", "mapId": "map_5", "editionId": "6", "time": "2:39:35.297" },
     { "playerId": "baghera", "mapId": "map_5", "editionId": "6", "time": "2:36:45.584" },
     { "playerId": "naka", "mapId": "map_5", "editionId": "6", "teamId": "DOMO", "time": "2:43:39.194" },
-    { "playerId": "bytell", "mapId": "map_5", "editionId": "6", "teamId": "DOMO", "time": "2:48:32.968" }
+    { "playerId": "bytell", "mapId": "map_5", "editionId": "6", "teamId": "DOMO", "time": "2:48:32.968" },
+    { "playerId": "zerator", "mapId": "map_7", "editionId": "7", "time": "40:29.554" },
+    { "playerId": "hyp", "mapId": "map_7", "editionId": "7", "time": "41:00.668" },
+    { "playerId": "khalen", "mapId": "map_7", "editionId": "7", "teamId": "SPF", "time": "40:26.102" },
+    { "playerId": "guill", "mapId": "map_7", "editionId": "7", "teamId": "SPF", "time": "40:28.342" },
+    { "playerId": "horty", "mapId": "map_7", "editionId": "7", "teamId": "ACT", "time": "02:10:19.058" },
+    { "playerId": "etoiles", "mapId": "map_7", "editionId": "7", "time": "02:10:17.683" },
+    { "playerId": "croco", "mapId": "map_7", "editionId": "7", "time": "46:47.488" },
+    { "playerId": "kenny", "mapId": "map_7", "editionId": "7", "time": "46:36.274" },
+    { "playerId": "zerator", "mapId": "map_6", "editionId": "7", "time": "22:02.206" },
+    { "playerId": "khalen", "mapId": "map_6", "editionId": "7", "teamId": "MDR", "time": "22:02.895" },
+    { "playerId": "etoiles", "mapId": "map_6", "editionId": "7", "teamId": "HEL", "time": "31:07.567" },
+    { "playerId": "croco", "mapId": "map_6", "editionId": "7", "time": "30:48.836" },
+    { "playerId": "kenny", "mapId": "map_6", "editionId": "7", "time": "30:47.400" }
   ],
   "maps": [
     {
@@ -219,49 +268,64 @@
       "name": "Treasure Islands",
       "author": "ziyx_",
       "exchangeId": "153644",
-      "authorTime": "03:52.878"
+      "authorTime": "03:52.878",
+      "difficulty": "Facile +"
     },
     {
       "id": "map_1",
       "name": "Oblivion - Novice",
       "author": "Qiraj",
       "exchangeId": "177289",
-      "authorTime": "08:46.195"
+      "authorTime": "08:46.195",
+      "difficulty": "Difficile"
     },
     {
       "id": "map_2",
       "name": "Kepler-B23 - novice",
       "author": "Heasto",
       "exchangeId": "184838",
-      "authorTime": "05:09.136"
+      "authorTime": "05:09.136",
+      "difficulty": "Moyen +"
     },
     {
       "id": "map_3",
       "name": "Onyxtemple",
       "author": "Onyx_be01",
       "exchangeId": "214814",
-      "authorTime": "04:16.396"
+      "authorTime": "04:16.396",
+      "difficulty": "Moyen -"
     },
     {
       "id": "map_4",
       "name": "Pylos",
       "author": "SirTalyon",
       "exchangeId": "224823",
-      "authorTime": "05:51.025"
+      "authorTime": "05:51.025",
+      "difficulty": "Difficile"
     },
     {
       "id": "map_5",
       "name": "Horizon's Edge - Sector A",
       "author": "Qiraj",
       "exchangeId": "204909",
-      "authorTime": "04:36.305"
+      "authorTime": "04:36.305",
+      "difficulty": "Difficile"
     },
     {
       "id": "map_6",
       "name": "Cirrus - Easy",
       "author": "NeoriionTM",
       "exchangeId": "227562",
-      "authorTime": "04:31.526"
+      "authorTime": "04:31.526",
+      "difficulty": "Facile"
+    },
+    {
+      "id": "map_7",
+      "name": "Animus Project",
+      "author": "Raikuz",
+      "exchangeId": "230081",
+      "authorTime": "05:25.971",
+      "difficulty": "Moyen"
     }
   ],
   "editions": [
@@ -329,6 +393,17 @@
       "winnerTeamId": "PP",
       "announcementTweet": "https://x.com/Wingo_Bear/status/1891097339911192967",
       "announcementTrailer": false,
+      "announcementPicture": true
+    },
+    {
+      "id": "7",
+      "date": "2025/03/13",
+      "mapsIds": ["map_7", "map_6"],
+      "recapVideos": [
+      ],
+      "winnerTeamId": "SPF",
+      "announcementTweet": "https://x.com/Wingo_Bear/status/1898714089590763937",
+      "announcementTrailer": true,
       "announcementPicture": true
     }
   ]

@@ -44,6 +44,7 @@ export type TmMap = {
   author: string
   exchangeId: string
   authorTime: string
+  difficulty: string
 }
 
 export type TpEdition = {

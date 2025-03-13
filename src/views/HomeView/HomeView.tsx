@@ -164,6 +164,8 @@ function MapInfo ({ map }: { map: TmMap }) {
       <span>par {map.author}</span>
       <span>-</span>
       <span>{map.authorTime}</span>
+      <span>-</span>
+      <span>Difficulté : {map.difficulty}</span>
     </li>
   )
 }
