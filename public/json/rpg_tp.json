@@ -353,7 +353,7 @@
       "id": "3",
       "date": "2024/07/31",
       "mapsIds": ["map_2"],
-      "recapVideos": [],
+      "recapVideos": ["https://www.youtube.com/watch?v=h4Xcngm3JEI"],
       "winnerTeamId": "FCF",
       "announcementTweet": "https://x.com/Wingo_Bear/status/1817524085435351164?t=gcdubGnYGgXCqSxhcgv0eA&s=19",
       "announcementTrailer": true,
